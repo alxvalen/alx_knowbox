@@ -1,0 +1,29 @@
+{
+  "name": "alx_knowbox",
+  "version": "1.0.0",
+  "description": "alxvalen's KnowledgeBox app (just for testing)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxvalen/alx_knowbox.git"
+  },
+  "author": "Ivar Valen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxvalen/alx_knowbox/issues"
+  },
+  "homepage": "https://github.com/alxvalen/alx_knowbox#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.15.3",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.3",
+    "express-validator": "^3.2.0",
+    "mongoose": "^4.10.4",
+    "pug": "^2.0.0-rc.2"
+  }
+}
